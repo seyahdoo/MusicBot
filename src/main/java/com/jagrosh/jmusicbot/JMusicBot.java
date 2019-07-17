@@ -69,7 +69,7 @@ public class JMusicBot
             }
         
         // get and check latest version
-        String version = OtherUtil.checkVersion(prompt);
+        //String version = OtherUtil.checkVersion(prompt);
         
         // load config
         BotConfig config = new BotConfig(prompt);
