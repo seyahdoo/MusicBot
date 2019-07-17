@@ -70,7 +70,8 @@ public class JMusicBot
         
         // get and check latest version
         //String version = OtherUtil.checkVersion(prompt);
-        
+        String version = "Unchecked";
+
         // load config
         BotConfig config = new BotConfig(prompt);
         config.load();
